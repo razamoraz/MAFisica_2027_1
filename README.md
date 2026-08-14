@@ -1,50 +1,25 @@
-# 📚 Master Course Template — cursosFC_UNAM
+# 📐 Matemáticas Avanzadas de la Física (MAF) — Facultad de Ciencias, UNAM
 
-A version-controlled, Obsidian-compatible master course template and learning system for physics courses at **Facultad de Ciencias, UNAM**, created and maintained by **Dr. Roberto Antonio Zamora Zamora**.
+A version-controlled, Obsidian-compatible course vault and learning system for **Matemáticas Avanzadas de la Física (MAF)** at **Facultad de Ciencias, UNAM (Semestre 2027-1)**, created and maintained by **Dr. Roberto Antonio Zamora Zamora**.
 
 ---
 
 ## 🌟 Overview & Architecture
 
-This repository serves as the **Master Template (`main` branch)** for generating isolated, interactive, and version-controlled websites for university courses (such as *Física Estadística*, *Matemáticas Avanzadas para la Física*, *Dinámica de Medios Deformables*, etc.).
+This repository hosts the lecture notes, interactive knowledge graph, computational notebooks, syllabus, and project guides for the 33-session course in Mathematical Physics.
 
 It integrates three foundational pillars:
 
 1. **Obsidian Knowledge Vault (Public & Git-Tracked)**:
-   - Atomic concept notes (`Concepts/`), lecture logs (`Lectures/`), Map of Content portals (`MoC/`), evaluation guidelines (`Projects/`), and syllabus definitions (`Syllabus.md`).
+   - Atomic concept notes (`Concepts/`), lecture logs for 33 sessions (`Lectures/`), Map of Content (`MoC/MAF_MoC.md`), project guidelines (`Projects/`), and syllabus definition (`Syllabus.md`).
    - Rich Markdown frontmatter, LaTeX equation rendering (`$$...$$`), and Obsidian wikilinks (`[[Concept]]`).
 
 2. **Public Static Web Interface via Quartz 5 (Automated Web Deployment)**:
-   - Publishes the interactive vault to **GitHub Pages** without requiring students to install Obsidian or Git.
+   - Publishes the interactive vault to **GitHub Pages** (`https://razamoraz.github.io/MAFisica_2027_1/`).
    - Includes full-text search, visual graph view, backlinks, popover previews, and KaTeX rendering.
 
 3. **Private PDF Indexing RAG Pipeline (Local & Private)**:
-   - Python tools (`scripts/convert_and_index.py`, `scripts/query_local.py`) to convert textbook PDFs into searchable vector chunks via **LanceDB** for deep offline semantic retrieval without committing copyrighted PDFs.
-
----
-
-## 🌿 Git Branching Strategy (Per Semester / Course)
-
-To maintain a clean master template while running active courses, use **Git Branching per Term**:
-
-```bash
-# 1. Clone the master repository
-git clone https://github.com/razamoraz/cursosFC_UNAM.git
-cd cursosFC_UNAM
-
-# 2. Create a dedicated branch for a new semester term (e.g. 2026-1 Física Estadística)
-git checkout -b 2026-1-fisica-estadistica
-
-# 3. Customize Syllabus.md, schedule dates, and publish to GitHub Pages
-git add .
-git commit -m "feat: initialize 2026-1 course instance for Física Estadística"
-
-# Alternatively you can use this repo as template to create a new repository
-# At GitHub create a new repository and select "cursosFC_UNAM" as template
-
-```
-
-*Note:* Standard template updates or core script fixes made in active branches can be cleanly merged back into `main`.
+   - Python tools (`scripts/convert_and_index.py`, `scripts/query_local.py`) to convert textbook PDFs (Arfken, Lebedev) into searchable vector chunks via **LanceDB** for deep offline semantic retrieval without committing copyrighted PDFs.
 
 ---
 
@@ -52,40 +27,36 @@ git commit -m "feat: initialize 2026-1 course instance for Física Estadística"
 
 ```
 .
-├── Syllabus.md                         # Official Course Syllabus (Temario, Evaluation 50/40/10, AI Policy)
+├── Syllabus.md                         # Official Course Syllabus (Temario, 33 Sesiones, Evaluación 50/40/10)
 ├── index.md                            # Quartz static site homepage
-├── Concepts/                           # Atomic concept notes by domain
-│   ├── Ensembles/
-│   ├── Thermodynamics/
-│   ├── Quantum_Statistics/
-│   ├── Kinetic_Theory_Numerics/
-│   ├── Phase_Transitions/
-│   └── Mathematical_Tools/
+├── Concepts/                           # Atomic concept notes by block
+│   ├── Bloque_01/                      # Cuerda finita, Fourier, Bessel & Sturm-Liouville
+│   ├── Bloque_02/                      # Dispersión, espectro continuo & difracción
+│   ├── Bloque_03/                      # Espectro mixto, pozos cuánticos & resonancias
+│   ├── Bloque_04/                      # Conducción de calor en esfera & Legendre
+│   ├── Bloque_05/                      # Transformada de Laplace & frentes de onda
+│   └── Bloque_06/                      # Ecuación de Mathieu & coordenadas elipsoidales
+├── Lectures/                           # Chronological notes for all 33 sessions
+│   ├── Sesion_01_Presentacion_Cuerda_Vibrante.md
+│   ├── ...
+│   └── Sesion_33_Cierre_Evaluacion_Proyectos.md
+├── MoC/                                # Map of Content master index
+│   └── MAF_MoC.md
 ├── Notebooks/                          # Google Colab notebooks for numerical methods
-│   ├── Python/                         # Jupyter notebooks (NumPy, SciPy, PyCUDA, JAX)
-│   └── Julia/                          # High-performance Julia notebooks
-├── Projects/                           # Final project guidelines & paper proposal templates
+│   ├── Python/                         # Fourier-Bessel series, Rayleigh scattering, Mathieu charts
+│   └── Julia/                          # High-performance spectral methods
+├── Projects/                           # Final project guidelines & proposal templates
 │   ├── Final_Project_Guide.md          # 40% Final Project Guide (7-15 min video + oral defense)
-│   └── Paper_Proposal_Template.md      # Week 8-9 Paper Selection proposal template
-├── MoC/                                # Maps of Content (Entry portals by block)
-│   └── Statistical_Physics_MoC.md
-├── Lectures/                           # Chronological course materials & lecture notes
-│   └── Week_01_Introduction.md
-├── Sources/                            # Metadata for textbooks and papers
-├── Source_Registers/                   # Concept-to-literature mappings
-├── Templates/                          # Obsidian note & syllabus templates
-│   ├── Concept.md
-│   ├── Lecture.md
-│   ├── Syllabus_Template.md
-│   └── Project_Rubric.md
+│   └── Paper_Proposal_Template.md      # Paper selection proposal template
+├── Sources/                            # Metadata for textbooks and references
+│   └── Books/
+│       ├── Arfken_1966.md
+│       └── Lebedev_1970.md
+├── Templates/                          # Obsidian note templates
 ├── scripts/                            # Local Python RAG indexing & CLI query tools
-│   ├── convert_and_index.py
-│   └── query_local.py
-├── .github/workflows/
-│   ├── validate.yml                    # CI vault validation
-│   └── deploy.yml                      # Quartz GitHub Pages deployment
+├── .github/workflows/deploy.yml        # Quartz GitHub Pages deployment
 ├── quartz.config.yaml                  # Quartz configuration file
-├── Makefile                            # Development & deployment shortcuts
+├── Makefile                            # Development shortcuts
 └── README.md
 ```
 
@@ -116,32 +87,31 @@ make setup
 
 # 2. Place PDFs in ./sample_pdfs/ (or set PDF_DIR in .env)
 
-# 3a. Fast text mode (PyMuPDF - plain text formulas)
+# 3a. Fast text mode (PyMuPDF)
 make index
 
-# 3b. Full LaTeX math OCR mode (Marker - genuine $$...$$ equations)
+# 3b. Full LaTeX math OCR mode (Marker)
 make index-marker
 
 # 4. Search local vector index
 make query
 ```
-*Note:* Converted Markdown files are saved locally to `./output/*.md` for easy copy-pasting of LaTeX equations and AI prompting. All PDFs and output files are `.gitignore`d for copyright safety.
 
 ---
 
-## 💯 Course Evaluation Framework (Física Estadística)
+## 💯 Course Evaluation Framework (MAF 2027-1)
 
-- **50% Monthly Exams**: Lowest score dropped. **+1 bonus point per exam** when handing in a 1-page handwritten formula/cheat sheet.
-- **40% Final Project**: Discussion or numerical reproduction of a published scientific paper (individual or max 3).
-  - **Week 8–9**: Paper proposal submission (1 page).
-  - **End of Term**: 7–15 min video presentation + 15 min oral defense.
-- **10% Feedback**: Participation (>90%) in weekly Google Forms feedback.
-- **AI Policy**: AI tools (LLMs) are permitted for code/writing assistance if prompt logs are explicitly disclosed. Strictly forbidden during exams and oral defenses.
+- **50% Exámenes Parciales (3 exámenes)**: Evaluaciones individuales al finalizar Bloques 1, 2 y 3. **+1 punto extra por examen** al entregar un formulario manuscrito (1 cuartilla).
+- **40% Proyecto Final**: Análisis teórico o reproducción numérica de un artículo científico o problema avanzado (individual o máx. 3).
+  - **Semana 8–9**: Entrega de propuesta escrita (1 cuartilla).
+  - **Sesión 23**: Hito de avance y retroalimentación intermedia.
+  - **Sesión 33**: Video expositivo (7–15 min) + Defensa oral (15 min).
+- **10% Google Forms**: Participación activa (>90%) en cuestionarios conceptuales y retroalimentación semanal.
+- **Política de IA**: Uso ético permitido y fomentado en código y redacción con prompts documentados. Prohibido en exámenes presenciales y defensas orales.
 
 ---
 
-## 🌐 GitHub Pages Deployment
+## 📚 Bibliografía Base
 
-The included GitHub Actions workflow (`.github/workflows/deploy.yml`) automatically builds and deploys Quartz whenever changes are pushed to `main` or active course branches.
-
-Set **Settings > Pages > Source** to `GitHub Actions` in your GitHub repository settings.
+1. **Arfken, G. B.** (1966). *Mathematical Methods for Physicists*. Academic Press, N.Y., USA.
+2. **Lebedev, N. N.** (1970). *Special Functions and Their Applications*. Dover Publications, N.Y., USA.
