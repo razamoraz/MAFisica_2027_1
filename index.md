@@ -4,7 +4,7 @@ title: "📐 Matemáticas Avanzadas de la Física — UNAM"
 
 # 📐 Matemáticas Avanzadas de la Física (MAF)
 **Facultad de Ciencias, UNAM — Semestre 2027-1**  
-**Profesor:** Dr. Roberto Antonio Zamora Zamora (`roberto.a.zamorazamora@gmail.com`)  
+**Profesor:** Dr. Roberto Antonio Zamora Zamora (`roberto.zamorazamora@ciencias.unam.mx`)  
 **Horario:** Martes y Jueves (2.5 horas por clase — 33 sesiones efectivas)
 
 Bienvenido a la plataforma interactiva de notas, mapas de contenido, código numérico y grafos de conocimiento del curso.

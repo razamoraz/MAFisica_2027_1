@@ -33,7 +33,7 @@ A lo largo del semestre se estudian problemas de valores en la frontera, operado
 | Componente | Porcentaje | Detalles y Criterios |
 | :--- | :---: | :--- |
 | **3 Exámenes Parciales** | **50%** | Evaluaciones individuales al término de los Bloques 1, 2 y 3.<br>• **Punto Extra (+1 pt por examen)**: Al entregar un formulario manuscrito (1 cuartilla) al inicio del examen. |
-| **Proyecto Final** | **40%** | Trabajo individual o en equipos (máximo 3 integrantes): análisis teórico o reproducción computacional de un artículo científico o problema avanzado.<br>• **Sesión 23**: Reporte de avance y retroalimentación intermedia.<br>• **Sesión 29-33**: Video presentacion (7–15 min) y defensa oral individual/por equipo (15 min). |
+| **Proyecto Final** | **40%** | Trabajo individual o en equipos (máximo 3 integrantes): análisis teórico o reproducción computacional de un artículo científico o problema avanzado.<br>• **Sesión 23**: Reporte de avance y retroalimentación intermedia.<br>• **Sesión 28**: Entrega final de video y reporte (subida a Google Drive / repositorio).<br>• **Semanas 14 y 15**: Defensas orales individuales en horarios de oficina (máximo 10 min por alumno).<br>• **Sesión 33**: Cierre y retroalimentación grupal. |
 | **Google Forms & Retroalimentación** | **10%** | Cuestionarios breves conceptuales y encuestas de seguimiento semanales (>90% de participación). |
 
 ---
@@ -61,7 +61,7 @@ A lo largo del semestre se estudian problemas de valores en la frontera, operado
 | **Bloque 4** | 25 – 28 | Conducción de calor en la Tierra, geometría esférica y polinomios de Legendre |
 | **Bloque 5** | 29 – 30 | Transformada de Laplace, contorno de Bromwich y propagación de frentes de onda |
 | **Bloque 6** | 31 – 32 | Ecuación de Mathieu, estabilidad paramétrica y coordenadas elipsoidales |
-| **Cierre Proyectos** | **33** | **Evaluación oral y muestra de Proyectos Finales** |
+| **Cierre y Defensas** | **29-33** | **Defensas orales individuales en horarios de oficina (agendadas). Clases 29-32: Bloques 5 y 6. Sesión 33: Cierre y retroalimentación.** |
 
 ---
 
@@ -109,8 +109,8 @@ A lo largo del semestre se estudian problemas de valores en la frontera, operado
 
 ### Bloque 6: Funciones de Mathieu, estabilidad y Cierre (Sesiones 31 a 33)
 - **Sesión 31**: Ecuación de Mathieu, osciladores paramétricos y determinación de zonas de estabilidad/inestabilidad.
-- **Sesión 32**: Separación de variables en coordenadas elipsoidales y problemas de teoría del potencial.
-- **Sesión 33**: 🎓 **Cierre del Curso**: Evaluación Oral y Muestra de Proyectos Finales.
+- **Sesión 32**: Separación de variables en coordenadas elipsoidales y problemas de teoría del potencial. *Se recuerda el agendamiento de defensas orales (vía office hours).*
+- **Sesión 33**: 🎓 **Cierre del curso**. Entrega de calificaciones, retroalimentación global sobre el desempeño en proyectos y resolución de dudas finales. *(Las defensas orales individuales ya se realizaron en horarios de oficina durante las semanas previas).*
 
 ---
 
