@@ -3,7 +3,7 @@ title: "📋 Syllabus: Matemáticas Avanzadas de la Física (MAF)"
 course: "Matemáticas Avanzadas de la Física"
 institution: "Facultad de Ciencias, UNAM"
 instructor: "Dr. Roberto Antonio Zamora Zamora"
-email: "roberto.a.zamorazamora@gmail.com"
+email: "roberto.zamorazamora@ciencias.unam.mx"
 semester: "2027-1"
 tags: [syllabus, course-policy, mathematical-physics]
 ---
@@ -13,8 +13,10 @@ tags: [syllabus, course-policy, mathematical-physics]
 **Facultad de Ciencias, UNAM**  
 **Semestre:** 2027-1  
 **Profesor:** Dr. Roberto Antonio Zamora Zamora  
-**Contacto:** `roberto.a.zamorazamora@gmail.com`  
+**Contacto:** `roberto.zamorazamora@ciencias.unam.mx`  
 **Horario:** Martes y Jueves (2.5 horas por clase) — 33 clases efectivas.
+**Inicia:** 18.08.2026
+
 
 ---
 
@@ -31,7 +33,7 @@ A lo largo del semestre se estudian problemas de valores en la frontera, operado
 | Componente | Porcentaje | Detalles y Criterios |
 | :--- | :---: | :--- |
 | **3 Exámenes Parciales** | **50%** | Evaluaciones individuales al término de los Bloques 1, 2 y 3.<br>• **Punto Extra (+1 pt por examen)**: Al entregar un formulario manuscrito (1 cuartilla) al inicio del examen. |
-| **Proyecto Final** | **40%** | Trabajo individual o en equipos (máximo 3 integrantes): análisis teórico o reproducción computacional de un artículo científico o problema avanzado.<br>• **Sesión 23**: Hito de avance y retroalimentación intermedia.<br>• **Sesión 33**: Video expositivo (7–15 min) y defensa oral individual/por equipo (15 min). |
+| **Proyecto Final** | **40%** | Trabajo individual o en equipos (máximo 3 integrantes): análisis teórico o reproducción computacional de un artículo científico o problema avanzado.<br>• **Sesión 23**: Reporte de avance y retroalimentación intermedia.<br>• **Sesión 29-33**: Video presentacion (7–15 min) y defensa oral individual/por equipo (15 min). |
 | **Google Forms & Retroalimentación** | **10%** | Cuestionarios breves conceptuales y encuestas de seguimiento semanales (>90% de participación). |
 
 ---
@@ -46,7 +48,7 @@ A lo largo del semestre se estudian problemas de valores en la frontera, operado
 
 ---
 
-## 🗓️ Calendario Sintético MAF
+## 🗓️ Calendario MAF
 
 | Bloque / Actividad | Sesiones | Temas Principales |
 | :--- | :---: | :--- |
@@ -92,7 +94,7 @@ A lo largo del semestre se estudian problemas de valores en la frontera, operado
 - **Sesión 20**: Ondas elásticas acopladas con estructuras vibrantes.
 - **Sesión 21**: Atrapamiento de energía, ondas fuertemente acopladas y resonancias.
 - **Sesión 22**: Amortiguamiento por radiación y polos del operador resolvente en el plano complejo.
-- **Sesión 23**: 📌 **Hito de Proyecto Final**: Revisión intermedia y retroalimentación de avances.
+- **Sesión 23**: 📌 **Report inicial Proyecto Final**: Revisión intermedia y retroalimentación de avances.
 - **Sesión 24**: 🎯 **EXAMEN PARCIAL 3**.
 
 ### Bloque 4: Calor en la Tierra, Geometría Esférica y Legendre (Sesiones 25 a 28)
@@ -118,4 +120,4 @@ A lo largo del semestre se estudian problemas de valores en la frontera, operado
 2. **Lebedev, N. N.** (1970). *Special Functions and Their Applications*. Dover Publications, N.Y., USA. ([[Sources/Books/Lebedev_1970|Ficha bibliográfica]]).
 
 ### Cuadernos y Recursos Computacionales
-- Repositorio del curso: Cuadernos interactivos en `Notebooks/Python/` y `Notebooks/Julia/` para simulación numérica y visualización de funciones especiales.
+- Repositorio del curso: Cuadernos interactivos en `Notebooks/Python/` y/o `Notebooks/Julia/` para simulación numérica y visualización de funciones especiales.
