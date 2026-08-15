@@ -23,15 +23,6 @@ Bienvenido a la plataforma interactiva de notas, mapas de contenido, código num
 
 ## 📦 Temas Oficiales del Curso
 
-```mermaid
-graph LR
-    B1["Tema 1<br>Fourier, S-L & Bessel"] --> B2["Tema 2<br>Dispersión & Continuo"]
-    B2 --> B3["Tema 3<br>Espectro Mixto & Pozos"]
-    B3 --> B4["Tema 4<br>Calor & Legendre"]
-    B4 --> B5["Tema 5<br>Laplace & Bromwich"]
-    B5 --> B6["Tema 6<br>Mathieu (Optativo) & Entrevistas"]
-```
-
 1. **[[MoC/MAF_MoC#tema-1-cuerda-finita-series-de-fourier-sturm-liouville-bessel-y-green-sesiones-1-a-8|Tema 1: Cuerda finita, Fourier, Sturm-Liouville, Bessel y Green]]** *(Sesiones 1 – 7 | 📝 Examen Parcial 1: Sesión 8)*
 2. **[[MoC/MAF_MoC#tema-2-vibración-en-regiones-infinitas-espectro-continuo-y-difracción-sesiones-9-a-16|Tema 2: Regiones Infinitas, Espectro Continuo y Difracción]]** *(Sesiones 9 – 15 | 📝 Examen Parcial 2: Sesión 16)*
 3. **[[MoC/MAF_MoC#tema-3-espectro-mixto-pozos-cuánticos-resonancias-y-solitones-sesiones-17-a-24|Tema 3: Espectro Mixto, Pozos, Resonancias y Solitones]]** *(Sesiones 17 – 23 | 📌 Propuesta: Sesión 23 | 📝 Examen Parcial 3: Sesión 24)*

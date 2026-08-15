@@ -48,39 +48,23 @@ tags: [syllabus, course-policy, mathematical-physics, temario-oficial]
 
 ## 📅 Calendario Sintético MAF (Exámenes terminan en Sesión 30)
 
-```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│                   CALENDARIO MAF (5 EXÁMENES + TEMAS OPTATIVOS)              │
-├───────────────────────┬──────────┬────────────┬─────────────────────────────┤
-│ Tema Oficial          │ Horas    │ Sesiones   │ Contenido Principal          │
-├───────────────────────┼──────────┼────────────┼─────────────────────────────┤
-│ Tema 1                │ 20 hrs   │ 1 - 7      │ Cuerda finita, Fourier, S-L, │
-│                       │          │            │ Bessel, Green 1D, Delta      │
-│ 📝 Examen Parcial 1   │          │ 8          │ Evaluación Tema 1 (10%)      │
-├───────────────────────┼──────────┼────────────┼─────────────────────────────┤
-│ Tema 2                │ 20 hrs   │ 9 - 15     │ Espectro continuo,           │
-│                       │          │            │ Difracción, Rayleigh         │
-│ 📝 Examen Parcial 2   │          │ 16         │ Evaluación Tema 2 (10%)      │
-├───────────────────────┼──────────┼────────────┼─────────────────────────────┤
-│ Tema 3                │ 20 hrs   │ 17 - 23    │ Espectro mixto, Pozos,       │
-│                       │          │            │ Resonancias, Solitones       │
-│ 📌 Propuesta Proyecto │          │ 23         │ Justificación de artículo    │
-│ 📝 Examen Parcial 3   │          │ 24         │ Evaluación Tema 3 (10%)      │
-├───────────────────────┼──────────┼────────────┼─────────────────────────────┤
-│ Tema 4                │ 10 hrs   │ 25 - 27    │ Calor en esfera, Legendre    │
-│ 📝 Examen Parcial 4   │          │ 28         │ Evaluación Tema 4 (10%)      │
-├───────────────────────┼──────────┼────────────┼─────────────────────────────┤
-│ Tema 5                │ 5 hrs    │ 29 - 30    │ Transformada de Laplace,     │
-│                       │          │            │ Bromwich, Precursores        │
-│ 📝 Examen Parcial 5   │          │ 30         │ Evaluación Tema 5 (10%)      │
-├───────────────────────┼──────────┼────────────┼─────────────────────────────┤
-│ Tema 6 (Optativo)     │ 5 hrs    │ 31 - 32    │ Mathieu, Estabilidad,        │
-│                       │          │            │ Coord. Elipsoidales          │
-│ 🎤 Entrevistas        │          │ 31 - 33    │ Discusión individual del     │
-│ (Orales)              │          │            │ proyecto (10-15 min c/u)     │
-│ 🎓 Cierre             │          │ 33         │ Entrega de calificaciones    │
-└───────────────────────┴──────────┴────────────┴─────────────────────────────┘
-```
+| Tema Oficial | Horas | Sesiones | Contenido Principal |
+| :--- | :---: | :---: | :--- |
+| **Tema 1** | 20 hrs | 1 – 7 | Cuerda finita, Fourier, S-L, Bessel, Green 1D, Delta |
+| 📝 **Examen Parcial 1** | — | **8** | **Evaluación Tema 1 (10%)** |
+| **Tema 2** | 20 hrs | 9 – 15 | Espectro continuo, Difracción, Rayleigh |
+| 📝 **Examen Parcial 2** | — | **16** | **Evaluación Tema 2 (10%)** |
+| **Tema 3** | 20 hrs | 17 – 23 | Espectro mixto, Pozos, Resonancias, Solitones |
+| 📌 **Propuesta Proyecto** | — | **23** | **Justificación de artículo y plan** |
+| 📝 **Examen Parcial 3** | — | **24** | **Evaluación Tema 3 (10%)** |
+| **Tema 4** | 10 hrs | 25 – 27 | Calor en esfera, Legendre |
+| 📝 **Examen Parcial 4** | — | **28** | **Evaluación Tema 4 (10%)** |
+| **Tema 5** | 5 hrs | 29 – 30 | Transformada de Laplace, Bromwich, Precursores |
+| 📝 **Examen Parcial 5** | — | **30** | **Evaluación Tema 5 (10%)** |
+| **Tema 6 (Optativo)** | 5 hrs | 31 – 32 | Mathieu, Estabilidad, Coord. Elipsoidales (No evaluable) |
+| 📌 **Entrega Video** | — | **31** | **Fecha límite de entrega de video del proyecto** |
+| 🎤 **Entrevistas Orales** | — | **31 – 33** | **Discusión individual del proyecto (10–15 min c/u en clase)** |
+| 🎓 **Cierre** | — | **33** | **Entrega de calificaciones y retroalimentación** |
 
 ---
 
