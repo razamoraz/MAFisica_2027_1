@@ -5,28 +5,32 @@ tags: [MOC, mathematical-physics, syllabus-map]
 
 # 🗺️ Map of Content (MoC) — Matemáticas Avanzadas de la Física
 
-Bienvenido al mapa general de contenidos para el curso **Matemáticas Avanzadas de la Física (MAF)** en la Facultad de Ciencias, UNAM. Este mapa interconecta las 33 sesiones del curso, los conceptos teóricos, las funciones especiales y los laboratorios computacionales.
+Bienvenido al mapa general de contenidos para el curso **Matemáticas Avanzadas de la Física (MAF)** en la Facultad de Ciencias, UNAM. Este mapa interconecta las 33 sesiones del curso, los conceptos teóricos, las funciones especiales, los laboratorios computacionales y los 5 exámenes parciales.
 
 ---
 
-## 🧭 Estructura General del Curso (6 Bloques Temáticos)
+## 🧭 Estructura General del Curso (6 Bloques Temáticos & 5 Parciales)
 
 ```mermaid
 graph TD
-    B1["Bloque 1: Cuerda finita, Fourier, Bessel y Sturm-Liouville"] --> P1{"Examen Parcial 1 (Sesión 8)"}
-    P1 --> B2["Bloque 2: Dispersión, Espectro Continuo y Difracción"]
-    B2 --> P2{"Examen Parcial 2 (Sesión 16)"}
-    P2 --> B3["Bloque 3: Espectro Mixto, Pozos Cuánticos y Resonancias"]
-    B3 --> P3{"Examen Parcial 3 (Sesión 24)"}
-    P3 --> B4["Bloque 4: Calor en Esfera, Geometría Esférica y Legendre"]
-    B4 --> B5["Bloque 5: Transformada de Laplace y Frentes de Onda"]
-    B5 --> B6["Bloque 6: Ecuación de Mathieu y Estabilidad"]
-    B6 --> Final["Cierre del Curso y Calificaciones (Sesión 33)"]
+    B1["Bloque 1: Fourier, S-L y Bessel (Sesiones 1-6)"] --> P1{"Examen Parcial 1 (Sesión 7)"}
+    P1 --> B2["Bloque 2: Espectro Continuo y Representaciones (Sesiones 8-13)"]
+    B2 --> P2{"Examen Parcial 2 (Sesión 14)"}
+    P2 --> B3["Bloque 3: Difracción de Rayleigh y Scattering (Sesiones 15-20)"]
+    B3 --> P3{"Examen Parcial 3 (Sesión 21)"}
+    P3 --> B4["Bloque 4: Espectro Mixto y Resonancias (Sesiones 22-26)"]
+    B4 --> Prop["📌 Propuesta de Proyecto (Sesión 23)"]
+    B4 --> P4{"Examen Parcial 4 (Sesión 27)"}
+    P4 --> B5["Bloque 5: Legendre y Laplace Condensado (Sesiones 28-29)"]
+    B5 --> P5{"Examen Parcial 5 (Sesión 30)"}
+    P5 --> B6["Bloque 6: Mathieu - Cápsula No Evaluable (Sesión 31)"]
+    B6 --> Vid["📌 Entrega Video Proyecto (Sesión 31)"]
+    Vid --> Def["🎤 Defensas Orales Individuales (Sesiones 32-33 + Oficinas)"]
 ```
 
 ---
 
-## 📦 Bloque 1: Cuerda Finita, Series de Fourier y Operadores de Sturm-Liouville (Sesiones 1 a 7)
+## 📦 Bloque 1: Fourier, Sturm-Liouville y Bessel (Sesiones 1 a 6)
 
 - **Sesiones**:
   - [[Lectures/Sesion_01_Presentacion_Cuerda_Vibrante|Sesión 1: Presentación, Cuerda Vibrante y Separación de Variables]]
@@ -34,9 +38,8 @@ graph TD
   - [[Lectures/Sesion_03_Sturm_Liouville|Sesión 3: Problema General de Sturm-Liouville y Bases Completas]]
   - [[Lectures/Sesion_04_Membranas_Circulares_Bessel|Sesión 4: Membranas Circulares e Introducción a Funciones de Bessel]]
   - [[Lectures/Sesion_05_Propiedades_Bessel|Sesión 5: Propiedades Nodales, Soluciones Singulares y Orden Fraccionario]]
-  - [[Lectures/Sesion_06_Series_Fourier_Bessel|Sesión 6: Membranas Sectoriales y Series de Fourier-Bessel en Julia/Python]]
-  - [[Lectures/Sesion_07_Funciones_Green_1D|Sesión 7: Operadores Inversos, Función de Green 1D y Delta de Dirac]]
-  - **Sesión 8**: 🎯 **Examen Parcial 1** *(Formulario manuscrito +1 pt)*
+  - [[Lectures/Sesion_06_Series_Fourier_Bessel|Sesión 6: Membranas Sectoriales, Fourier-Bessel en Julia/Python y Función de Green 1D]]
+  - **Sesión 7**: 🎯 **Examen Parcial 1** *(Formulario manuscrito +1 pt)*
 - **Conceptos Teóricos**:
   - [[Concepts/Bloque_01/Cuerda_Vibrante_Separacion_Variables|Cuerda Vibrante y Separación de Variables]]
   - [[Concepts/Bloque_01/Series_Fourier|Series de Fourier y Ortogonalidad]]
@@ -49,37 +52,48 @@ graph TD
 
 ---
 
-## 🌊 Bloque 2: Vibración, Dispersión en Regiones Infinitas y Espectro Continuo (Sesiones 9 a 15)
+## 🌊 Bloque 2: Espectro Continuo, Representaciones Integrales y Transformada de Fourier (Sesiones 8 a 13)
 
 - **Sesiones**:
-  - [[Lectures/Sesion_09_Cuerda_Semiinfinita_Espectro_Continuo|Sesión 9: Cuerda Semiinfinita y Ondas Incidentes/Reflejadas]]
-  - [[Lectures/Sesion_10_Transformadas_Fourier_Continuo|Sesión 10: Funciones Propias Generalizadas y Límite al Continuo]]
-  - [[Lectures/Sesion_11_Reflexion_Olas_Integrales_Complejas|Sesión 11: Reflexión de Olas e Integrales Complejas de Bessel]]
-  - [[Lectures/Sesion_12_Asintotica_Bessel_Espectro_Continuo|Sesión 12: Asintótica de Bessel y Representación Espectral]]
-  - [[Lectures/Sesion_13_Difraccion_Cilindro_Bessel_Modificadas|Sesión 13: Difracción EM por Cilindro y Bessel Modificadas ($I_\nu, K_\nu$)]]
-  - [[Lectures/Sesion_14_Difraccion_Rayleigh|Sesión 14: Difracción de Rayleigh y Sección Eficaz]]
-  - [[Lectures/Sesion_15_Taller_Difraccion_Dispersion|Sesión 15: Taller Computacional de Difracción y Dispersión]]
-  - **Sesión 16**: 🎯 **Examen Parcial 2**
+  - **Sesión 8**: Cuerda semiinfinita, ondas incidentes/reflejadas y concepto de espectro continuo.
+  - **Sesión 9**: Funciones propias generalizadas y transformadas de Fourier como límite del espectro discreto.
+  - **Sesión 10**: Reflexión de olas en playas y representación integral en el plano complejo de funciones de Bessel.
+  - **Sesión 11**: Asintótica de funciones de Bessel y representación espectral de operadores en el continuo.
+  - **Sesión 12**: Difracción de ondas electromagnéticas por un cilindro y funciones de Bessel modificadas.
+  - **Sesión 13**: Taller computacional: Simulación de patrones de difracción y dispersión en Google Colab.
+  - **Sesión 14**: 🎯 **Examen Parcial 2** *(Formulario manuscrito +1 pt)*
 - **Conceptos Teóricos**:
   - [[Concepts/Bloque_02/Cuerda_Semiinfinita_Espectro_Continuo|Espectro Continuo y Cuerda Semiinfinita]]
   - [[Concepts/Bloque_02/Transformada_Fourier_Continuo|Transformada de Fourier como Límite Espectral]]
   - [[Concepts/Bloque_02/Asintotica_Bessel_Integrales_Complejas|Representación Integral y Asintótica de Bessel]]
   - [[Concepts/Bloque_02/Difraccion_Cilindro_Bessel_Modificadas|Difracción Cilíndrica y Bessel Modificadas]]
+
+---
+
+## 🌈 Bloque 3: Difracción de Rayleigh y Secciones Eficaces (Sesiones 15 a 20)
+
+- **Sesiones**:
+  - **Sesión 15**: Difracción de Rayleigh ("el azul del cielo") y sección eficaz de dispersión.
+  - **Sesión 16**: Desarrollo multipolar y funciones de Bessel esféricas.
+  - **Sesión 17**: Problemas de scattering en 2D y 3D (Aproximaciones de Born y ondas parciales).
+  - **Sesión 18**: Taller computacional avanzado: Simulación de patrones de Rayleigh en Colab.
+  - **Sesión 19**: Aplicaciones a física atmosférica y óptica (repaso de Fourier y Bessel).
+  - **Sesión 20**: Repaso general del Bloque 3 y resolución de problemas tipo examen.
+  - **Sesión 21**: 🎯 **Examen Parcial 3** *(Formulario manuscrito +1 pt)*
+- **Conceptos Teóricos**:
   - [[Concepts/Bloque_02/Difraccion_Rayleigh_Seccion_Eficaz|Difracción de Rayleigh y Sección Eficaz]]
 
 ---
 
-## ⚛️ Bloque 3: Espectro Mixto en Mecánica Cuántica y Clásica (Sesiones 17 a 23)
+## ⚛️ Bloque 4: Espectro Mixto en Mecánica Cuántica y Clásica (Sesiones 22 a 26)
 
 - **Sesiones**:
-  - [[Lectures/Sesion_17_Pozo_Potencial_Estados_Ligados_Libres|Sesión 17: Pozo Cuántico: Estados Ligados vs Estados Libres]]
-  - [[Lectures/Sesion_18_Representacion_Espectral_Mixta|Sesión 18: Representación Espectral Mixta (Suma + Integral)]]
-  - [[Lectures/Sesion_19_Potenciales_Reflexion_Cero_Solitones|Sesión 19: Potenciales Reflexión Cero y Solitones (KdV)]]
-  - [[Lectures/Sesion_20_Ondas_Elasticas_Acopladas|Sesión 20: Ondas Elásticas Acopladas y Medios Vibrantes]]
-  - [[Lectures/Sesion_21_Atrapamiento_Energia_Resonancias|Sesión 21: Atrapamiento de Energía y Resonancias]]
-  - [[Lectures/Sesion_22_Amortiguamiento_Radiacion_Polos_Resolvente|Sesión 22: Amortiguamiento por Radiación y Polos del Resolvente]]
-  - [[Lectures/Sesion_23_Hito_Proyecto_Final|Sesión 23: Hito de Proyecto Final (Revisión Intermedia)]]
-  - **Sesión 24**: 🎯 **Examen Parcial 3**
+  - **Sesión 22**: El pozo de potencial cuántico: estados ligados vs estados libres.
+  - **Sesión 23**: 📌 **Entrega de Propuesta de Proyecto con Justificación (10% del Proyecto - 4% Final)**.
+  - **Sesión 24**: Representación espectral completa combinando suma sobre discretos e integración continua.
+  - **Sesión 25**: Potenciales reflexión cero y ondas solitarias (conexión KdV). Ondas elásticas acopladas.
+  - **Sesión 26**: Atrapamiento de energía, resonancias y amortiguamiento por radiación (polos del resolvente).
+  - **Sesión 27**: 🎯 **Examen Parcial 4** *(Formulario manuscrito +1 pt)*
 - **Conceptos Teóricos**:
   - [[Concepts/Bloque_03/Pozo_Potencial_Estados_Ligados_Libres|Estados Ligados y Estados del Continuo]]
   - [[Concepts/Bloque_03/Representacion_Espectral_Mixta|Teoría Espectral Mixta]]
@@ -88,39 +102,28 @@ graph TD
 
 ---
 
-## 🌍 Bloque 4: Calor en la Tierra, Geometría Esférica y Legendre (Sesiones 25 a 28)
+## 🌍 Bloque 5: Calor en la Tierra, Legendre y Transformada de Laplace (Sesiones 28 a 29) — *Condensado*
 
 - **Sesiones**:
-  - [[Lectures/Sesion_25_Conduccion_Calor_Esfera|Sesión 25: Conducción de Calor en la Tierra]]
-  - [[Lectures/Sesion_26_Polinomios_Armonicos_Ecuacion_Legendre|Sesión 26: Polinomios Armónicos y Ecuación de Legendre]]
-  - [[Lectures/Sesion_27_Propiedades_Ortogonalidad_Legendre|Sesión 27: Propiedades, Ortogonalidad y Asintótica de Legendre]]
-  - [[Lectures/Sesion_28_Concentracion_Calor_Astrofisica|Sesión 28: Concentración de Calor y Aplicaciones Geofísicas]]
+  - **Sesión 28**: Conducción de calor en una esfera (Calentamiento de la Tierra), polinomios armónicos y deducción de Legendre.
+  - **Sesión 29**: Transformada de Laplace, velocidad finita de propagación e inversión en contorno de Bromwich.
+  - **Sesión 30**: 🎯 **Examen Parcial 5** *(Formulario manuscrito +1 pt)*
 - **Conceptos Teóricos**:
   - [[Concepts/Bloque_04/Conduccion_Calor_Esfera|Ecuación de Calor en Coordenadas Esféricas]]
   - [[Concepts/Bloque_04/Polinomios_Legendre|Polinomios de Legendre ($P_n(x)$) y Armónicos Esféricos]]
-
----
-
-## ⚡ Bloque 5: Transformada de Laplace y Frentes de Onda (Sesiones 29 a 30)
-
-- **Sesiones**:
-  - [[Lectures/Sesion_29_Transformada_Laplace_Ondas|Sesión 29: Transformada de Laplace y Velocidad Finita de Propagación]]
-  - [[Lectures/Sesion_30_Inversion_Bromwich_Precursores|Sesión 30: Inversión en el Plano Complejo (Bromwich) y Precursores]]
-- **Conceptos Teóricos**:
   - [[Concepts/Bloque_05/Transformada_Laplace_Ondas|Transformada de Laplace en EDPs de Ondas]]
   - [[Concepts/Bloque_05/Inversion_Bromwich_Velocidad_Grupo_Senal|Contorno de Bromwich, Velocidad de Señal y Precursores]]
 
 ---
 
-## 🌀 Bloque 6: Funciones de Mathieu, Estabilidad y Cierre (Sesiones 31 a 33)
+## 🌀 Bloque 6: Ecuación de Mathieu & Defensas de Proyecto (Sesiones 31 a 33)
 
 - **Sesiones**:
-  - [[Lectures/Sesion_31_Ecuacion_Mathieu_Estabilidad|Sesión 31: Ecuación de Mathieu y Diagramas de Estabilidad]]
-  - [[Lectures/Sesion_32_Coordenadas_Elipsoidales_Potencial|Sesión 32: Coordenadas Elipsoidales y Problemas de Potencial]]
-  - [[Lectures/Sesion_33_Cierre_Evaluacion_Proyectos|Sesión 33: Cierre del Curso y Retroalimentación Global]]
+  - **Sesión 31**: Ecuación de Mathieu y zonas de estabilidad (Cápsula no evaluable) + 📌 **Entrega de Video del Proyecto (16% Final)**.
+  - **Sesión 32**: 🎤 **Defensas Orales Individuales (1ra ronda - 10 min exposición + 5 min preguntas)**.
+  - **Sesión 33**: 🎤 **Defensas Orales Individuales (2da ronda) y Cierre del Curso** *(defensas restantes en horarios de oficina)*.
 - **Conceptos Teóricos**:
   - [[Concepts/Bloque_06/Ecuacion_Mathieu_Estabilidad|Ecuación de Mathieu y Resonancia Paramétrica]]
-  - [[Concepts/Bloque_06/Separacion_Variables_Coordenadas_Elipsoidales|Separación de Variables en Coordenadas Elipsoidales]]
 
 ---
 

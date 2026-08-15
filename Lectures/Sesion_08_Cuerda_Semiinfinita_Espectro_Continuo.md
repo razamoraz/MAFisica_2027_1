@@ -1,11 +1,11 @@
 ---
-sesion: 9
+sesion: 8
 bloque: 2
 titulo: "Cuerda semiinfinita, ondas incidentes/reflejadas y concepto de espectro continuo"
 tags: [lecture, bloque-2, continuous-spectrum, semi-infinite]
 ---
 
-# Sesión 9: Cuerda Semiinfinita y Espectro Continuo
+# Sesión 8: Cuerda Semiinfinita y Espectro Continuo
 
 ## 🎯 Objetivos de la Sesión
 - Transición de dominios acotados a dominios semiinfinitos $[0,\infty)$.
