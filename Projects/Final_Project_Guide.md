@@ -15,8 +15,8 @@ El proyecto final de **Matemáticas Avanzadas de la Física (MAF)** impartido po
 | :--- | :---: | :--- | :---: |
 | **1. Selección de Artículo / Tema** | **Semana 8–9** | Propuesta escrita de 1 página ([[Projects/Paper_Proposal_Template|Plantilla de Propuesta]]). | **10%** |
 | **2. Hito de Avance y Feedback** | **Sesión 23** | Revisión intermedia de avance analítico o numérico en clase. | Feedback |
-| **3. Entregable: Video Expositivo** | **Sesión 33** | Video grabado de 7 a 15 minutos en YouTube/Vimeo/Drive. | **40%** |
-| **4. Entregable: Defensa Oral** | **Sesión 33** | Entrevista y defensa oral de 15 minutos individual o en equipo. | **50%** |
+| **3. Entregable: Video Expositivo & Reporte** | **Sesión 28** | Video grabado de 7 a 15 minutos en YouTube/Vimeo/Drive + Cuaderno/Reporte. | **40%** |
+| **4. Entregable: Defensa Oral** | **Semanas 14–15 (Sesiones 29–32)** | Entrevista y defensa oral individual en horarios de oficina (máx. 10 min por alumno). | **50%** |
 
 ---
 
@@ -43,11 +43,12 @@ El video debe ser claro, riguroso y con formato de seminario científico:
 
 ---
 
-## 🗣️ Etapa 3: Defensa Oral (15 min — Sesión 33)
+## 🗣️ Etapa 3: Defensas Orales (Horarios de Oficina — Semanas 14 y 15)
 
-Una sesión individual o en equipo con el profesor:
-- Preguntas conceptuales sobre los pasos matemáticos, operadores y aproximaciones empleadas.
-- Validación de la comprensión intuitiva de la física del problema y del código desarrollado.
+Entrevista y evaluación individual de 10 minutos con el profesor en horarios de oficina:
+- 5 minutos de preguntas conceptuales sobre pasos matemáticos, operadores, aproximaciones y código.
+- 5 minutos de retroalimentación directa y evaluación formativa.
+- El calendario de citas y turnos se publicará en la **Sesión 27**.
 
 ---
 
@@ -57,5 +58,5 @@ Una sesión individual o en equipo con el profesor:
 | :--- | :--- | :---: |
 | **Rigor Matemático & Físico** | Dominio de las ecuaciones diferenciales, funciones especiales y deducciones. | 35% |
 | **Calidad del Video & Claridad** | Exposición didáctica, concisión y calidad visual (7–15 min exactos). | 25% |
-| **Defensa Oral & Intuición** | Respuestas precisas e intuitivas durante el interrogatorio de la Sesión 33. | 30% |
+| **Defensa Oral & Intuición** | Respuestas precisas e intuitivas durante la defensa en horarios de oficina. | 30% |
 | **Transparencia en IA & Formato** | Entrega oportuna de propuesta, registro de prompts LLM y código reproducible. | 10% |

@@ -21,7 +21,7 @@ graph TD
     P3 --> B4["Bloque 4: Calor en Esfera, Geometría Esférica y Legendre"]
     B4 --> B5["Bloque 5: Transformada de Laplace y Frentes de Onda"]
     B5 --> B6["Bloque 6: Ecuación de Mathieu y Estabilidad"]
-    B6 --> Final["Cierre & Evaluación Oral de Proyectos (Sesión 33)"]
+    B6 --> Final["Cierre del Curso y Calificaciones (Sesión 33)"]
 ```
 
 ---
@@ -117,7 +117,7 @@ graph TD
 - **Sesiones**:
   - [[Lectures/Sesion_31_Ecuacion_Mathieu_Estabilidad|Sesión 31: Ecuación de Mathieu y Diagramas de Estabilidad]]
   - [[Lectures/Sesion_32_Coordenadas_Elipsoidales_Potencial|Sesión 32: Coordenadas Elipsoidales y Problemas de Potencial]]
-  - [[Lectures/Sesion_33_Cierre_Evaluacion_Proyectos|Sesión 33: Cierre del Curso y Defensa Oral de Proyectos]]
+  - [[Lectures/Sesion_33_Cierre_Evaluacion_Proyectos|Sesión 33: Cierre del Curso y Retroalimentación Global]]
 - **Conceptos Teóricos**:
   - [[Concepts/Bloque_06/Ecuacion_Mathieu_Estabilidad|Ecuación de Mathieu y Resonancia Paramétrica]]
   - [[Concepts/Bloque_06/Separacion_Variables_Coordenadas_Elipsoidales|Separación de Variables en Coordenadas Elipsoidales]]

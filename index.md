@@ -15,7 +15,7 @@ Bienvenido a la plataforma interactiva de notas, mapas de contenido, código num
 
 - 📋 **[[Syllabus]]**: Temario oficial, calendario sintético (33 sesiones), esquema de evaluación (50% Exámenes / 40% Proyecto / 10% Forms), política de IA y bibliografía base.
 - 🗺️ **[[MoC/MAF_MoC|Mapa de Contenido (MoC)]]**: Índice interactivo y grafo temático de los 6 bloques y 33 sesiones del curso.
-- 🎓 **[[Projects/Final_Project_Guide|Proyecto Final (40%)]]**: Guía de entregas, selección de artículo (Semana 8-9), video (7–15 min) y defensa oral en la Sesión 33.
+- 🎓 **[[Projects/Final_Project_Guide|Proyecto Final (40%)]]**: Guía de entregas, selección de artículo (Semana 8-9), video y reporte (Sesión 28) y defensa oral en horarios de oficina (Semanas 14-15).
 - 💻 **[[Notebooks/README|Laboratorios en Google Colab]]**: Cuadernos interactivos en **Python** y **Julia** (Series de Fourier-Bessel, dispersión de Rayleigh, zonas de estabilidad de Mathieu).
 - 📚 **Bibliografía**: [[Sources/Books/Arfken_1966|Arfken (1966)]] y [[Sources/Books/Lebedev_1970|Lebedev (1970)]].
 
