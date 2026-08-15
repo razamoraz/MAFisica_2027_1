@@ -62,7 +62,7 @@ Cada estudiante participará en una **entrevista individual de 10 a 15 minutos**
 
 ---
 
-## ⚖️ Rúbrica de Evaluación
+## ⚖️ Criterios de Evaluación
 
 | Criterio | Descripción | Ponderación |
 | :--- | :--- | :---: |

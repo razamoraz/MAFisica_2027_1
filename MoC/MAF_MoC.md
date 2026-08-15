@@ -9,14 +9,16 @@ Bienvenido al mapa general de contenidos para el curso **Matemáticas Avanzadas 
 
 ---
 
-| Tema Oficial | Sesiones | Evaluación / Hito |
+## 🧭 Estructura General del Curso (6 Temas Oficiales & 5 Parciales)
+
+| Tema Oficial | Sesiones | Evaluaciones y Entregas |
 | :--- | :---: | :--- |
-| **Tema 1: Cuerda finita, Fourier, S-L, Bessel & Green** | 1 – 7 | 📝 **Examen Parcial 1** (Sesión 8) |
-| **Tema 2: Espectro Continuo, Difracción & Rayleigh** | 9 – 15 | 📝 **Examen Parcial 2** (Sesión 16) |
-| **Tema 3: Espectro Mixto, Pozos, Resonancias & Solitones** | 17 – 23 | 📌 **Propuesta Proyecto** (Sesión 23)<br>📝 **Examen Parcial 3** (Sesión 24) |
-| **Tema 4: Calor en Esfera, Legendre & Armónicos** | 25 – 27 | 📝 **Examen Parcial 4** (Sesión 28) |
-| **Tema 5: Transformada de Laplace & Bromwich** | 29 – 30 | 📝 **Examen Parcial 5** (Sesión 30) |
-| **Tema 6: Mathieu & Coord. Elipsoidales (Optativo)** | 31 – 32 | 📌 **Entrega Video** (Sesión 31)<br>🎤 **Entrevistas Orales en Clase** (Sesiones 31–33)<br>🎓 **Cierre y Calificaciones** (Sesión 33) |
+| **Tema 1: Cuerda finita, Fourier, S-L, Bessel & Green** | 1 – 7 | 📝 **Examen Parcial 1 (Sesión 8)** |
+| **Tema 2: Espectro Continuo, Difracción & Rayleigh** | 9 – 15 | 📝 **Examen Parcial 2 (Sesión 16)** |
+| **Tema 3: Espectro Mixto, Pozos, Resonancias & Solitones** | 17 – 23 | 📌 **Propuesta Proyecto (Sesión 23)** <br>📝 **Examen Parcial 3 (Sesión 24)** |
+| **Tema 4: Calor en Esfera, Legendre & Armónicos** | 25 – 27 | 📝 **Examen Parcial 4 (Sesión 28)** |
+| **Tema 5: Transformada de Laplace & Bromwich** | 29 – 30 | 📝 **Examen Parcial 5 (Sesión 30)** |
+| **Tema 6: Mathieu & Coord. Elipsoidales (Optativo)** | 31 – 32 | 📌 **Entrega Video (Sesión 31)** <br>🎤 **Entrevistas Orales en Clase (Sesiones 31–33)** <br>🎓 **Cierre y Calificaciones (Sesión 33)** |
 
 ---
 
@@ -109,8 +111,8 @@ Bienvenido al mapa general de contenidos para el curso **Matemáticas Avanzadas 
 ## 🌀 Tema 6: Ecuación de Mathieu, Estabilidad y Entrevistas Orales (Sesiones 31 a 33)
 
 - **Sesiones**:
-  - **Sesión 31**: Ecuación de Mathieu y zonas de estabilidad (Contenido optativo / no evaluable) + 📌 **Entrega de Video del Proyecto** + Primer bloque de entrevistas orales individuales.
-  - **Sesión 32**: Separación de variables en coordenadas elipsoidales y problemas de potencial + Segundo bloque de entrevistas orales.
+  - **Sesión 31**: Ecuación de Mathieu y zonas de estabilidad (Contenido optativo / no evaluable) + 📌 **Entrega de Video del Proyecto** + Primer bloque de entrevistas orales individuales en clase.
+  - **Sesión 32**: Separación de variables en coordenadas elipsoidales y problemas de potencial + Segundo bloque de entrevistas orales en clase.
   - **Sesión 33**: 🎓 **Cierre del curso**, conclusión de entrevistas y entrega de calificaciones.
 - **Conceptos Teóricos**:
   - [[Concepts/Bloque_06/Ecuacion_Mathieu_Estabilidad|Ecuación de Mathieu y Resonancia Paramétrica]]

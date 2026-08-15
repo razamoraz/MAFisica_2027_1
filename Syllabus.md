@@ -1,5 +1,5 @@
 ---
-title: "📋 Syllabus: Matemáticas Avanzadas de la Física (MAF) — Definitivo con Temas Optativos y Entrevistas"
+title: "📋 Syllabus: Matemáticas Avanzadas de la Física (MAF)"
 course: "Matemáticas Avanzadas de la Física"
 institution: "Facultad de Ciencias, UNAM"
 instructor: "Dr. Roberto Antonio Zamora Zamora"
@@ -46,7 +46,7 @@ tags: [syllabus, course-policy, mathematical-physics, temario-oficial]
 
 ---
 
-## 📅 Calendario Sintético MAF (Exámenes terminan en Sesión 30)
+## 📅 Calendario del Curso (33 Sesiones)
 
 | Tema Oficial | Horas | Sesiones | Contenido Principal |
 | :--- | :---: | :---: | :--- |
@@ -170,7 +170,7 @@ tags: [syllabus, course-policy, mathematical-physics, temario-oficial]
 
 ---
 
-## 📌 Resumen del Plan Definitivo (MAF)
+## 📌 Resumen General del Curso
 
 | Aspecto | Detalle |
 | :--- | :--- |
