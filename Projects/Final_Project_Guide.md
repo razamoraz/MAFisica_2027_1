@@ -7,7 +7,7 @@ tags: [project, guidelines, evaluation, mathematical-physics]
 
 El proyecto final de **Matemáticas Avanzadas de la Física (MAF)** impartido por el **Dr. Roberto Antonio Zamora Zamora** consiste en el estudio, profundización analítica o reproducción numérica rigurosa de un artículo científico o problema avanzado en física matemática (operadores de Sturm-Liouville, funciones especiales, espectros continuos/mixtos, teoría de dispersión, funciones de Green, ondas no lineales/solitones, o estabilidad paramétrica de Mathieu).
 
-El proyecto representa el **40% de la calificación final**. Para optimizar los tiempos de un grupo numeroso (30+ estudiantes) y evitar cargas redundantes, **no se solicita un reporte escrito extenso final**; la evaluación se concentra en la propuesta inicial con justificación, la calidad del video explicativo y la defensa oral individual.
+El proyecto representa el **40% de la calificación final**. No se requiere exposición presencial tradicional con diapositivas ni un reporte escrito extenso; **el video grabado cumple la función de la presentación** y la **entrevista oral individual (10–15 min)** permite profundizar y verificar el dominio conceptual de forma personalizada.
 
 ---
 
@@ -16,16 +16,16 @@ El proyecto representa el **40% de la calificación final**. Para optimizar los 
 | Etapa | Sesión / Momento | Entregable | Ponderación en Proyecto | Ponderación Final |
 | :--- | :---: | :--- | :---: | :---: |
 | **1. Propuesta con Justificación** | **Sesión 23** | Documento breve (1–2 págs.) con artículo, justificación, metodología y viabilidad ([[Projects/Paper_Proposal_Template|Plantilla de Propuesta]]). | **10%** | **4%** |
-| **2. Video Expositivo + Materiales** | **Sesión 31** | Video grabado de 7 a 15 minutos en YouTube/Vimeo/Drive + Cuaderno Colab / código fuente y diapositivas. | **40%** | **16%** |
-| **3. Defensa Oral Individual** | **Sesiones 32–33** (+ horarios de oficina) | Exposición oral individual de 10 min estrictos + 5 min de preguntas del profesor (15 min totales). | **50%** | **20%** |
+| **2. Video Expositivo + Código** | **Sesión 31** | Video grabado de 7 a 15 minutos en YouTube/Vimeo/Drive + Cuaderno Colab / código reproducible y diapositivas. | **40%** | **16%** |
+| **3. Entrevista Oral Individual** | **Sesiones 31–33** (en clase o en oficinas) | Discusión individual de 10–15 min con el profesor para verificar comprensión, método y resultados. | **50%** | **20%** |
 
 ---
 
 ## 📑 Etapa 1: Propuesta con Justificación (Sesión 23)
 
 Cada equipo (máximo 3 integrantes) o estudiante individual debe subir al repositorio/plataforma un documento breve (1–2 páginas) en formato Markdown:
-1. **Referencia completa**: Título y referencia formal del artículo científico seleccionado (p. ej. de *American Journal of Physics*, *European Journal of Physics*, *Physical Review*, *Journal of Mathematical Physics*, *Revista Mexicana de Física*, etc.).
-2. **Justificación de su elección**: Conexión directa con al menos un bloque temático del curso (Sturm-Liouville, Bessel, Legendre, Mathieu, dispersión, espectro mixto, funciones de Green). ¿Qué problema matemático o físico resuelve el artículo?
+1. **Referencia completa**: Título y referencia formal del artículo científico seleccionado (p. ej. *American Journal of Physics*, *European Journal of Physics*, *Physical Review*, *Journal of Mathematical Physics*, *Revista Mexicana de Física*, etc.).
+2. **Justificación de su elección**: Conexión directa con al menos un tema oficial del curso (Sturm-Liouville, Bessel, Legendre, Mathieu, dispersión, espectro mixto, funciones de Green). ¿Qué problema matemático o físico resuelve el artículo?
 3. **Metodología propuesta**: ¿Reproducción numérica, extensión analítica, o ambas?
 4. **Viabilidad computacional**: ¿Qué herramientas de las vistas en clase (Python/Julia en Google Colab) planean utilizar?
 5. **Declaración de uso de IA**: Prompts o herramientas LLM consultadas durante la búsqueda o comprensión del artículo documentadas en apéndice.
@@ -48,15 +48,15 @@ El video debe ser claro, riguroso y con formato de seminario científico (duraci
 
 ---
 
-## 🎤 Etapa 3: Defensas Orales Individuales (Sesiones 32–33 + Oficinas)
+## 🎤 Etapa 3: Entrevistas Orales Individuales (Sesiones 31–33 en Clase)
 
-Cada estudiante tendrá **10 minutos estrictos** para discutir su proyecto individualmente (motivación, método, resultados y conclusiones), seguido de **5 minutos de preguntas del profesor** (total 15 min por estudiante).
-
-- **Evaluación**: Se evaluará explícitamente la coherencia entre la justificación entregada en la Sesión 23 y el trabajo final presentado, así como el dominio conceptual individual.
-- **Logística para 30+ estudiantes**:
-  - Las Sesiones 32 y 33 disponen de 5 horas de clase presencial (2.5 hrs c/u).
-  - Para 30+ estudiantes se requieren aproximadamente 7.5 horas de defensas; las defensas restantes se completarán en **horarios de oficina** durante la semana posterior.
-  - El rol de turnos se publicará con antelación en la **Sesión 30**.
+Cada estudiante participará en una **entrevista individual de 10 a 15 minutos** con el profesor:
+- **Formato**: No es una exposición formal (el video grabado ya evaluó ese aspecto). Es una sesión de diálogo técnico donde se profundizará en el desarrollo matemático, código y física del problema.
+- **Evaluación**: Se evaluará explícitamente el dominio individual del tema, la coherencia con la justificación entregada en la Sesión 23 y la claridad para responder preguntas sobre los pasos analíticos y numéricos.
+- **Logística**:
+  - Las 7.5 horas de clase distribuidas entre las **Sesiones 31, 32 y 33** permiten cubrir a todo el grupo durante el horario regular.
+  - El calendario de citas y turnos se publicará en la **Sesión 30**.
+  - Si algún estudiante requiere reprogramar, se habilitarán turnos en horarios de oficina.
 
 *Esta entrega vale el **50% de la nota del proyecto** (20% de la nota final).*
 
@@ -68,4 +68,4 @@ Cada estudiante tendrá **10 minutos estrictos** para discutir su proyecto indiv
 | :--- | :--- | :---: |
 | **Propuesta y Justificación (Sesión 23)** | Relevancia del artículo, claridad en la justificación y viabilidad metodológica. | 10% |
 | **Rigor Físico-Matemático & Video (Sesión 31)** | Calidad del desarrollo, simulaciones numéricas, claridad didáctica y concisión (7–15 min). | 40% |
-| **Defensa Oral Individual (Sesiones 32–33)** | Dominio conceptual, intuición física, respuestas a preguntas del profesor y consistencia con la justificación. | 50% |
+| **Entrevista Oral Individual (Sesiones 31–33)** | Dominio conceptual, intuición física, solidez ante preguntas y consistencia técnica. | 50% |
