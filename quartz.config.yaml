@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: es-ES
+  locale: es-MX
   baseUrl: razamoraz.github.io/MAFisica_2027_1
   ignorePatterns:
     - private
