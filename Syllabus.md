@@ -10,7 +10,7 @@ tags: [syllabus, course-policy, mathematical-physics, temario-oficial]
 
 # 📋 Syllabus: Matemáticas Avanzadas de la Física (MAF)
 
-**Facultad de Ciencias, UNAM**  
+**Facultad de Ciencias, UNAM** (Grupo 8223 -📍Y202)  
 **Clave:** 0610 | **Semestre:** 2027-1 | **Créditos:** 10  
 **Profesor:** Dr. Roberto Antonio Zamora Zamora  
 **Contacto:** `roberto.zamorazamora@ciencias.unam.mx`  
