@@ -13,7 +13,8 @@ tags: [syllabus, course-policy, mathematical-physics, temario-oficial]
 **Facultad de Ciencias, UNAM** (Grupo 8223 -📍Y202)  
 **Clave:** 0610 | **Semestre:** 2027-1 | **Créditos:** 10  
 **Profesor:** Dr. Roberto Antonio Zamora Zamora  
-**Contacto:** `roberto.zamorazamora@ciencias.unam.mx`  
+**Contacto:** `roberto.zamorazamora@ciencias.unam.mx`
+**Ayudante:** Lic. José Santiago Miguel (`josesantiago@estudiantes.fisica.unam.mx`) 
 **Horario:** Martes y Jueves (2.5 horas por clase) — 33 clases efectivas.  
 **Inicia:** 18.08.2026
 
