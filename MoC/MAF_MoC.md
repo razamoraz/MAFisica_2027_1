@@ -9,16 +9,33 @@ Bienvenido al mapa general de contenidos para el curso **Matemáticas Avanzadas 
 
 ---
 
-## 🧭 Estructura General del Curso (6 Temas Oficiales & 5 Parciales)
+## 🧭 Estructura General del Curso (7 Temas Oficiales & 6 Parciales)
 
 | Tema Oficial | Sesiones | Evaluaciones y Entregas |
 | :--- | :---: | :--- |
-| **Tema 1: Cuerda finita, Fourier, S-L, Bessel & Green** | 1 – 7 | 📝 **Examen Parcial 1 (Sesión 8)** |
+| **Tema 0: Coordenadas Curvilíneas & Operadores Diferenciales** | 0 – 5 | 📝 **Examen Parcial 0 (Sesión 6)** |
+| **Tema 1: Cuerda finita, Fourier, S-L, Bessel & Green** | 6 – 7 | 📝 **Examen Parcial 1 (Sesión 8)** |
 | **Tema 2: Espectro Continuo, Difracción & Rayleigh** | 9 – 15 | 📝 **Examen Parcial 2 (Sesión 16)** |
 | **Tema 3: Espectro Mixto, Pozos, Resonancias & Solitones** | 17 – 23 | 📌 **Propuesta Proyecto (Sesión 23)** <br>📝 **Examen Parcial 3 (Sesión 24)** |
 | **Tema 4: Calor en Esfera, Legendre & Armónicos** | 25 – 27 | 📝 **Examen Parcial 4 (Sesión 28)** |
 | **Tema 5: Transformada de Laplace & Bromwich** | 29 – 30 | 📝 **Examen Parcial 5 (Sesión 30)** |
 | **Tema 6: Mathieu & Coord. Elipsoidales (Optativo)** | 31 – 32 | 📌 **Entrega Video (Sesión 31)** <br>🎤 **Entrevistas Orales en Clase (Sesiones 31–33)** <br>🎓 **Cierre y Calificaciones (Sesión 33)** |
+
+---
+
+## 📐 Tema 0: Sistemas de Coordenadas Curvilíneas y Operadores Diferenciales (Sesiones 0 a 5)
+
+- **Sesiones**:
+  - **Sesión 0**: Ecuaciones diferenciales típicas de la física y restricciones de simetría.
+  - **Sesión 1**: Restricciones de simetría y funciones especiales.
+  - **Sesión 2**: Coordenadas curvilíneas en general $\mathbf{d\vec{r}}$, factores de escala ($h_i$) y bases locales ortogonales.
+  - **Sesión 3**: Operadores diferenciales curvilíneos: Gradiente, Divergencia, Rotacional y Laplaciano.
+  - **Sesión 4**: Coordenadas cilíndricas, esféricas y transformaciones generales.
+  - **Sesión 5**: Taller y aplicaciones en física matemática.
+  - **Sesión 6**: 📝 **Examen Parcial 0 (Tema 0)**
+- **Conceptos Teóricos**:
+  - [[Concepts/Bloque_00/Sistemas_Coordenadas_Curvilineas|Sistemas de Coordenadas Curvilíneas y Factores de Escala]]
+  - [[Concepts/Bloque_00/Operadores_Diferenciales_Curvilineos|Operadores Diferenciales en Coordenadas Ortogonales]]
 
 ---
 

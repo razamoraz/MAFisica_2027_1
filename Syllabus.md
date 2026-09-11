@@ -51,7 +51,9 @@ tags: [syllabus, course-policy, mathematical-physics, temario-oficial]
 
 | Tema Oficial | Horas | Sesiones | Contenido Principal |
 | :--- | :---: | :---: | :--- |
-| **Tema 1** | 20 hrs | 1 – 7 | Cuerda finita, Fourier, S-L, Bessel, Green 1D, Delta |
+| **Tema 0** | 10 hrs | 0 – 5 | Coordenadas curvilíneas y operadores diferenciales |
+| 📝 **Examen Parcial 0** | — | **6** | **Evaluación Tema 0 (10%)** |
+| **Tema 1** | 10 hrs | 6 – 7 | Cuerda finita, Fourier, S-L, Bessel, Green 1D, Delta |
 | 📝 **Examen Parcial 1** | — | **8** | **Evaluación Tema 1 (10%)** |
 | **Tema 2** | 20 hrs | 9 – 15 | Espectro continuo, Difracción, Rayleigh |
 | 📝 **Examen Parcial 2** | — | **16** | **Evaluación Tema 2 (10%)** |
@@ -73,7 +75,19 @@ tags: [syllabus, course-policy, mathematical-physics, temario-oficial]
 
 ---
 
-### 📌 TEMA 1 (20 hrs) — Cuerda finita, Fourier, Sturm-Liouville, Bessel y Green (Sesiones 1 a 8)
+### 📌 TEMA 0 (10 hrs) — Sistemas de coordenadas curvilíneas y operadores diferenciales (Sesiones 0 a 5)
+
+- **Sesión 0:** Ecuaciones diferenciales típicas de la física y restricciones de simetría.
+- **Sesión 1:** Restricciones de simetría y funciones especiales.
+- **Sesión 2:** Coordenadas curvilíneas en general $\mathbf{d\vec{r}}$, factores de escala ($h_i$) y bases locales ortogonales.
+- **Sesión 3:** Operadores diferenciales curvilíneos: Gradiente, Divergencia, Rotacional y Laplaciano.
+- **Sesión 4:** Coordenadas cilíndricas, esféricas y transformaciones generales.
+- **Sesión 5:** Taller y aplicaciones en física matemática.
+- **Sesión 6:** **📝 EXAMEN PARCIAL 0** (Tema 0 – 10%). *Formulario manuscrito para +1 pt.*
+
+---
+
+### 📌 TEMA 1 (10 hrs) — Cuerda finita, Fourier, Sturm-Liouville, Bessel y Green (Sesiones 1 a 8)
 
 - **Sesión 1:** Presentación del curso, repositorio, Colab y política de IA. **Ecuación de la cuerda vibrante** y separación de variables.
 - **Sesión 2:** **Series de Fourier** y desarrollo de funciones ortogonales.
