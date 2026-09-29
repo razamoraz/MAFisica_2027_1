@@ -7,9 +7,10 @@ Esta carpeta contiene los cuadernos interactivos en **Python** y **Julia** para 
 ## 📁 Cuadernos por Bloque Temático
 
 ### 🐍 Python (`Notebooks/Python/`)
-1. **`01_Fourier_Bessel_Series.ipynb`**:
-   - Cálculo numérico de ceros de Bessel $\alpha_{\nu, m}$ con `scipy.special`.
-   - Reconstrucción y aproximación de funciones en membranas circulares y sectoriales con series de Fourier-Bessel.
+1. **`01_Bessel_Drums.ipynb`**:
+   - Derivación completa de la ecuación de Bessel a partir de la membrana circular vibrante.
+   - Visualización interactiva 3D de modos normales con `k3d` y animación con `ipywidgets`.
+   - Cálculo numérico de ceros de Bessel $\alpha_{m,n}$ con `scipy.special`.
 2. **`02_Rayleigh_Scattering_Simulation.ipynb`**:
    - Simulación de difracción electromagnética y dispersión de Rayleigh.
    - Cálculo de sección eficaz diferencial y visualización de campos cercanos/lejanos en obstáculos cilíndricos.
