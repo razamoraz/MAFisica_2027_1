@@ -1,0 +1,31 @@
+[project]
+name = "mafisica-2027-1"
+version = "0.1.0"
+description = "Matemáticas Avanzadas de la Física - Facultad de Ciencias, UNAM (Semestre 2027-1)"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel>=6.29.0",
+    "ipywidgets>=8.1.0",
+    "jupyterlab>=4.2.0",
+    "k3d>=3.1.0",
+    "matplotlib>=3.9.0",
+    "numpy>=2.0.0",
+    "scipy>=1.13.0",
+]
+
+[project.optional-dependencies]
+indexing = [
+    "click",
+    "lancedb",
+    "marker-pdf",
+    "pymupdf",
+    "pyarrow",
+    "python-dotenv",
+    "rich",
+    "sentence-transformers",
+    "tiktoken",
+]
+
+[tool.uv]
+package = false
