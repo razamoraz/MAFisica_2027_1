@@ -58,7 +58,7 @@ Bienvenido al mapa general de contenidos para el curso **Matemáticas Avanzadas 
   - [[Concepts/Bloque_01/Series_Fourier_Bessel|Series de Fourier-Bessel]]
   - [[Concepts/Bloque_01/Funcion_Green_1D|Funciones de Green 1D y Distribuciones]]
 - **Laboratorio**:
-  - `Notebooks/Python/01_Fourier_Bessel_Series.ipynb`
+  - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/razamoraz/MAFisica_2027_1/blob/main/Notebooks/Python/01_Bessel_Drums.ipynb) [[Notebooks/README|01_Bessel_Drums.ipynb]]
 
 ---
 

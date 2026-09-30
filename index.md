@@ -8,6 +8,10 @@ title: "📐 Matemáticas Avanzadas de la Física — UNAM"
 **Ayudante:** Fis. José Santiago Miguel (`josesantiago@estudiantes.fisica.unam.mx`) 
 **Horario:** Martes y Jueves (2.5 horas por clase — 33 sesiones efectivas)
 
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repositorio-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/razamoraz/MAFisica_2027_1)
+[![Google Colab](https://img.shields.io/badge/Google_Colab-Laboratorios-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/razamoraz/MAFisica_2027_1/blob/main/Notebooks/README.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
 Bienvenido a la plataforma interactiva de notas, mapas de contenido, código numérico y grafos de conocimiento del curso.
 
 
@@ -18,7 +22,9 @@ Bienvenido a la plataforma interactiva de notas, mapas de contenido, código num
 - 📋 **[[Syllabus]]**: Temario oficial, calendario del curso (33 sesiones), esquema de evaluación (50% Exámenes [5 parciales en sesiones 8, 16, 24, 28 y 30] / 40% Proyecto [Propuesta + Video + Entrevistas en clase] / 10% Forms), política de IA y bibliografía base.
 - 🗺️ **[[MoC/MAF_MoC|Mapa de Contenido (MoC)]]**: Índice interactivo y grafo temático de los 6 temas oficiales y 33 sesiones del curso.
 - 🎓 **[[Projects/Final_Project_Guide|Proyecto Final (40%)]]**: Guía de entregas, propuesta con justificación (Sesión 23), video y código (Sesión 31) y entrevistas orales individuales en clase (Sesiones 31–33).
-- 💻 **[[Notebooks/README|Laboratorios en Google Colab]]**: Cuadernos interactivos en **Python** y **Julia** (Series de Fourier-Bessel, dispersión de Rayleigh, zonas de estabilidad de Mathieu).
+- 💻 **[[Notebooks/README|Laboratorios y Notebooks Interactivos]]**:
+  - **En la nube**: Abre directamente los cuadernos en **Google Colab** sin instalar nada.
+  - **En local**: Configura tu entorno con un solo comando ejecutando `make setup` e inicia con `make jupyter`.
 - 📚 **Bibliografía**: [[Sources/Books/Arfken_1966|Arfken (1966)]] y [[Sources/Books/Lebedev_1970|Lebedev (1970)]].
 
 ---
