@@ -16,3 +16,6 @@ tags: [lecture, bloque-1, sturm-liouville, self-adjoint]
 
 ## 💡 Conceptos Abordados
 - [[Concepts/Bloque_01/Problema_Sturm_Liouville|Problema General de Sturm-Liouville]]
+
+## 💻 Práctica Computacional
+- Cuaderno interactivo: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/razamoraz/MAFisica_2027_1/blob/main/Notebooks/Python/02_Sturm_Liouville.ipynb) [[Notebooks/README|02_Sturm_Liouville.ipynb]]
