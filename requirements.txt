@@ -11,6 +11,8 @@ sympy>=1.12.0
 
 # Visualización y gráficos
 matplotlib>=3.7.0
+k3d>=3.2.0
+ipywidgets>=8.0.0
 
 # Entorno interactivo de Notebooks y kernels
 jupyter>=1.0.0
